@@ -1,2 +1,2 @@
 # pce-social-hub
-## Official PCE digital presence and company web interface.
+## Official PCE digital presence and links to Social platforms
