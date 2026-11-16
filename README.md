@@ -5,10 +5,10 @@
 
 https://www.pce-ei.de/
 
-### PCE Energy Solutions GmbH
+## PCE Energy Solutions GmbH
 
 https://pce-es.de/
 
-### PCE Data Know How GmbH
+## PCE Data Know How GmbH
 
 https://www.data-know-how.de/
