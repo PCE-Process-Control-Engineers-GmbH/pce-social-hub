@@ -1,79 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:title" content="Process Control Engineers GmbH" />
-    <meta property="og:description" content="Official social hub for Process Control Engineers GmbH." />
-    <meta property="og:image" content="assets/og-image.png" />
-    <meta property="og:url" content="https://www.pce-social-hub.vercel.app/" />
-    <meta property="og:type" content="website" />
-    <meta name="keywords" content="PCE, Process Control Engineers, automation, robotics, engineering, process, chemical, instrumentation, detail engineering" />
-    <title>Process Control Engineers GmbH | Social Hub</title>
-    <link rel="icon" href="assets/favicon.png" type="image/png" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#eaf1ff" />
+  <meta name="description" content="Discover the three companies of PCE Gruppe: Process Control Engineers, PCE Energy Solutions and Data Know-How." />
+  <meta property="og:title" content="PCE Gruppe | One Group. Three Areas of Expertise." />
+  <meta property="og:description" content="Explore the companies and expertise of PCE Gruppe." />
+  <meta property="og:image" content="assets/og-image.png" />
+  <meta property="og:url" content="https://pce-process-control-engineers-gmbh.github.io/pce-social-hub/" />
+  <meta property="og:type" content="website" />
+  <title>PCE Gruppe | Connect with us</title>
+  <link rel="icon" href="assets/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
-<body>
-
-    <div class="background-blobs">
-        <span class="blob blob-one"></span>
-        <span class="blob blob-two"></span>
-        <span class="blob blob-three"></span>
-    </div>
-
-    <main class="container">
-        <section class="card">
-
-        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
-            <i class="fas fa-moon"></i>
-        </button>
-        
-        <div class="logo-wrapper">
-            <img src="assets/hell_logo.png" class="logo logo-light" />
-            <img src="assets/schwarz_logo.png" class="logo logo-dark" />
+<body class="dark">
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div><div class="ambient ambient-three"></div>
+  <main class="page-shell">
+    <section class="hub-card" aria-labelledby="page-title">
+      <div class="header-controls">
+        <div class="language-toggle" role="group" aria-label="Select language">
+          <button type="button" class="language-button" data-lang="de" aria-pressed="false">DE</button>
+          <button type="button" class="language-button active" data-lang="en" aria-pressed="true">EN</button>
         </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode"><i class="fas fa-moon"></i></button>
+      </div>
+      <div class="logo-wrap">
+        <img src="assets/hell_logo.png" class="logo logo-light" alt="PCE Process Control Engineers" />
+        <img src="assets/schwarz_logo.png" class="logo logo-dark" alt="PCE Process Control Engineers" />
+      </div>
+      <h1 id="page-title"><span data-i18n="headline1">Great to have you here.</span><br><span class="headline-accent" data-i18n="headline2">Welcome to PCE.</span></h1>
+      <p class="intro" data-i18n="intro">Meet our three companies and discover the people, ideas and expertise behind the PCE Gruppe.</p>
 
-        <h1>Process Control Engineers GmbH</h1>
-        <p class="subtitle">
-            Engineering precision. Connecting innovation.
-        </p>
+      <div class="section-heading"><span data-i18n="explore">EXPLORE OUR COMPANIES</span></div>
+      <div class="company-list">
+        <a class="company-card company-ei" href="https://pce-ei.de/" target="_blank" rel="noopener noreferrer">
+          <span class="company-icon brand-favicon"><img src="https://www.google.com/s2/favicons?domain=pce-ei.de&sz=128" alt="Process Control Engineers favicon" loading="eager" /></span>
+          <span class="company-copy"><strong>Process Control Engineers</strong><small data-i18n="ei_desc">Engineering · EMSR · Process automation</small><em>pce-ei.de</em></span>
+          <span class="company-arrow"><i class="fas fa-arrow-up-right-from-square"></i></span>
+        </a>
+        <a class="company-card company-es" href="https://pce-es.de/" target="_blank" rel="noopener noreferrer">
+          <span class="company-icon brand-favicon"><img src="https://www.google.com/s2/favicons?domain=pce-es.de&sz=128" alt="PCE Energy Solutions favicon" loading="eager" /></span>
+          <span class="company-copy"><strong>PCE Energy Solutions</strong><small data-i18n="es_desc">Energy · Automation · Smart solutions</small><em>pce-es.de</em></span>
+          <span class="company-arrow"><i class="fas fa-arrow-up-right-from-square"></i></span>
+        </a>
+        <a class="company-card company-dkh" href="https://data-know-how.de/" target="_blank" rel="noopener noreferrer">
+          <span class="company-icon brand-favicon"><img src="https://www.google.com/s2/favicons?domain=data-know-how.de&sz=128" alt="Data Know-How favicon" loading="eager" /></span>
+          <span class="company-copy"><strong>Data Know-How</strong><small data-i18n="dkh_desc">Technical training · Industrial knowledge</small><em>data-know-how.de</em></span>
+          <span class="company-arrow"><i class="fas fa-arrow-up-right-from-square"></i></span>
+        </a>
+      </div>
 
-        <p class="description">
-            Follow us across our official platforms and stay updated with our latest projects,
-            insights, and company news.
-        </p>
-
-        <div class='noise'></div>
-
-        <div class="links">
-            <a href="https://www.pce-ei.de/" target="_blank" rel="noopener noreferrer" class="link-button website">
-                <i class="fas fa-globe"></i> Visit Website
-            </a>
-            <a href="https://de.linkedin.com/company/pce-process-control-engineers-gmbh" target="_blank" rel="noopener noreferrer" class="link-button linkedin">
-                <i class="fab fa-linkedin-in"></i> LinkedIn
-            </a>
-            <a href="https://www.instagram.com/pce_gmbh" target="_blank" rel="noopener noreferrer" class="link-button instagram">
-                <i class="fab fa-instagram"></i> Instagram
-            </a>
-            <a href="https://www.tiktok.com/@pce_gmbh" target="_blank" rel="noopener noreferrer" class="link-button tiktok">
-                <i class="fab fa-tiktok"></i> TikTok
-            </a>
-            <a href="https://www.facebook.com/people/PCE-Gmbh-Process-Control-Engineers/100071472982275/" target="_blank" rel="noopener noreferrer" class="link-button facebook">
-                <i class="fab fa-facebook-f"></i> Facebook
-            </a>
-            <a href="mailto:info@pce-ei.de" target="_blank" rel="noopener noreferrer" class="link-button email">
-                <i class="fas fa-envelope"></i> Contact Us
-            </a>
+      <div class="social-area">
+        <span class="social-label" data-i18n="follow">FOLLOW PCE PROCESS CONTROL ENGINEERS</span>
+        <div class="social-links">
+          <a href="https://de.linkedin.com/company/pce-process-control-engineers-gmbh" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.instagram.com/pce_gmbh" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@pce_gmbh" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          <a href="https://www.facebook.com/people/PCE-GmbH-Process-Control-Engineers/100071472982275/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="mailto:info@pce-ei.de" aria-label="Email"><i class="fas fa-envelope"></i></a>
         </div>
-        
-        <footer class="footer">
-            <p>© 2026 Process Control Engineers GmbH</p>
-        </footer>
-        </section>
-    </main>
-
-    <script src="script.js"></script>
+      </div>
+      <footer>© <span id="year"></span> PCE Gruppe <span class="footer-separator">·</span> <span data-i18n="footer">Engineering connected.</span></footer>
+    </section>
+    <p class="outside-note" data-i18n="outside">THREE AREAS. ONE GROUP.</p>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>
